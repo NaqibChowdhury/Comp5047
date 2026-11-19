@@ -336,18 +336,65 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_CRxW8ORDEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A" target="_baxYgOQ_EfGo0sCIQyOi3A" source="_jxdWoOQ_EfGo0sCIQyOi3A">
       <guard xmi:type="uml:LiteralString" xmi:id="_ThUzMORDEfGo0sCIQyOi3A" name="LiteralString1" value="more parcels"/>
     </edge>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_QMcmQOQ8EfGo0sCIQyOi3A" name="Warden" node="_MUavUOQ9EfGo0sCIQyOi3A _Uh8xcOQ9EfGo0sCIQyOi3A _YYGjoOQ9EfGo0sCIQyOi3A _6YJFEOQ-EfGo0sCIQyOi3A _baxYgOQ_EfGo0sCIQyOi3A _jxdWoOQ_EfGo0sCIQyOi3A _loOD8OQ_EfGo0sCIQyOi3A" edge="_rW7dwORAEfGo0sCIQyOi3A _r_eEcORAEfGo0sCIQyOi3A _aSkIYORBEfGo0sCIQyOi3A _cwsXsORBEfGo0sCIQyOi3A _CRxW8ORDEfGo0sCIQyOi3A"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_SaHXsOQ8EfGo0sCIQyOi3A" name="Warden Subsystem" node="_O-RGcOQ9EfGo0sCIQyOi3A _PbDwIOQ9EfGo0sCIQyOi3A _XupW8OQ9EfGo0sCIQyOi3A _X8C5wOQ9EfGo0sCIQyOi3A _gO6H0OQ9EfGo0sCIQyOi3A _dv75EOQ_EfGo0sCIQyOi3A _fPmVAOQ_EfGo0sCIQyOi3A _iL8KUOQ_EfGo0sCIQyOi3A" edge="_CJczUORBEfGo0sCIQyOi3A _DqiyoORBEfGo0sCIQyOi3A _TEHksORBEfGo0sCIQyOi3A _Vk6tgORBEfGo0sCIQyOi3A _XiqMkORBEfGo0sCIQyOi3A"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_UXo0UOQ8EfGo0sCIQyOi3A" name="Student" node="_XiX1gOQ9EfGo0sCIQyOi3A _nkEFkOQ_EfGo0sCIQyOi3A" edge="_qhE-YORBEfGo0sCIQyOi3A"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_MUavUOQ9EfGo0sCIQyOi3A" name="Scan Parcel Label" incoming="_r_eEcORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_O-RGcOQ9EfGo0sCIQyOi3A" name="Extract Name and Room" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_PbDwIOQ9EfGo0sCIQyOi3A" name="Match Against Resident Directory" visibility="protected" outgoing="_CJczUORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_SBGPMORGEfGo0sCIQyOi3A" target="_-2HBAORFEfGo0sCIQyOi3A" source="_5I4YcORFEfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_SBNj8ORGEfGo0sCIQyOi3A" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_SBNj8eRGEfGo0sCIQyOi3A" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_AmgyMORHEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A" target="_z5_cQORGEfGo0sCIQyOi3A" source="_xgBUMORGEfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_AmoG8ORHEfGo0sCIQyOi3A" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_AmoG8eRHEfGo0sCIQyOi3A" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_HckrEORHEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A" target="_GtPf4ORHEfGo0sCIQyOi3A" source="_DM_FMORHEfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Hcsm4ORHEfGo0sCIQyOi3A" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Hcsm4eRHEfGo0sCIQyOi3A" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_3nkr0ORHEfGo0sCIQyOi3A" target="_jYMocORHEfGo0sCIQyOi3A" source="_j6PlkORHEfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_3nsAkORHEfGo0sCIQyOi3A" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_3nsAkeRHEfGo0sCIQyOi3A" value="1"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_QMcmQOQ8EfGo0sCIQyOi3A" name="Warden" node="_MUavUOQ9EfGo0sCIQyOi3A _Uh8xcOQ9EfGo0sCIQyOi3A _YYGjoOQ9EfGo0sCIQyOi3A _6YJFEOQ-EfGo0sCIQyOi3A _baxYgOQ_EfGo0sCIQyOi3A _jxdWoOQ_EfGo0sCIQyOi3A _loOD8OQ_EfGo0sCIQyOi3A _5I4YcORFEfGo0sCIQyOi3A" edge="_rW7dwORAEfGo0sCIQyOi3A _r_eEcORAEfGo0sCIQyOi3A _aSkIYORBEfGo0sCIQyOi3A _cwsXsORBEfGo0sCIQyOi3A _CRxW8ORDEfGo0sCIQyOi3A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_SaHXsOQ8EfGo0sCIQyOi3A" name="Warden Subsystem" node="_O-RGcOQ9EfGo0sCIQyOi3A _PbDwIOQ9EfGo0sCIQyOi3A _XupW8OQ9EfGo0sCIQyOi3A _X8C5wOQ9EfGo0sCIQyOi3A _gO6H0OQ9EfGo0sCIQyOi3A _dv75EOQ_EfGo0sCIQyOi3A _fPmVAOQ_EfGo0sCIQyOi3A _iL8KUOQ_EfGo0sCIQyOi3A _-2HBAORFEfGo0sCIQyOi3A _xgBUMORGEfGo0sCIQyOi3A _z5_cQORGEfGo0sCIQyOi3A _DM_FMORHEfGo0sCIQyOi3A _GtPf4ORHEfGo0sCIQyOi3A _j6PlkORHEfGo0sCIQyOi3A" edge="_CJczUORBEfGo0sCIQyOi3A _DqiyoORBEfGo0sCIQyOi3A _TEHksORBEfGo0sCIQyOi3A _Vk6tgORBEfGo0sCIQyOi3A _XiqMkORBEfGo0sCIQyOi3A _AmgyMORHEfGo0sCIQyOi3A _HckrEORHEfGo0sCIQyOi3A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_UXo0UOQ8EfGo0sCIQyOi3A" name="Student" node="_XiX1gOQ9EfGo0sCIQyOi3A _nkEFkOQ_EfGo0sCIQyOi3A _jYMocORHEfGo0sCIQyOi3A" edge="_qhE-YORBEfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MUavUOQ9EfGo0sCIQyOi3A" name="Scan Parcel Label" incoming="_r_eEcORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_5I4YcORFEfGo0sCIQyOi3A" name="labelimage" outgoing="_SBGPMORGEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_5I60sORFEfGo0sCIQyOi3A" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_O-RGcOQ9EfGo0sCIQyOi3A" name="Extract Name and Room" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_-2HBAORFEfGo0sCIQyOi3A" name="labelimage" incoming="_SBGPMORGEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_-2I2MORFEfGo0sCIQyOi3A" value="1"/>
+      </inputValue>
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_xgBUMORGEfGo0sCIQyOi3A" name="recipientdetails" outgoing="_AmgyMORHEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_xgCiUORGEfGo0sCIQyOi3A" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PbDwIOQ9EfGo0sCIQyOi3A" name="Match Against Resident Directory" visibility="protected" outgoing="_CJczUORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_z5_cQORGEfGo0sCIQyOi3A" name="recipientdetails" incoming="_AmgyMORHEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_z6AqYORGEfGo0sCIQyOi3A" value="1"/>
+      </inputValue>
+    </node>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Uh8xcOQ9EfGo0sCIQyOi3A" name="Enter Recipient Manually" incoming="_P2OsYORBEfGo0sCIQyOi3A" outgoing="_RBYQ4ORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_XiX1gOQ9EfGo0sCIQyOi3A" name="Receive Pickup Notification" outgoing="_qhE-YORBEfGo0sCIQyOi3A" inPartition="_UXo0UOQ8EfGo0sCIQyOi3A"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_XupW8OQ9EfGo0sCIQyOi3A" name="Create Parcel Record" incoming="_TEHksORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_X8C5wOQ9EfGo0sCIQyOi3A" name="Generate Pickup Token" outgoing="_Vk6tgORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XiX1gOQ9EfGo0sCIQyOi3A" name="Receive Pickup Notification" outgoing="_qhE-YORBEfGo0sCIQyOi3A" inPartition="_UXo0UOQ8EfGo0sCIQyOi3A">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_jYMocORHEfGo0sCIQyOi3A" name="pickupnotification" incoming="_3nkr0ORHEfGo0sCIQyOi3A" inPartition="_UXo0UOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_jYNPgORHEfGo0sCIQyOi3A" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XupW8OQ9EfGo0sCIQyOi3A" name="Create Parcel Record" incoming="_TEHksORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_DM_FMORHEfGo0sCIQyOi3A" name="parcelrecord" outgoing="_HckrEORHEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_DNATUORHEfGo0sCIQyOi3A" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_X8C5wOQ9EfGo0sCIQyOi3A" name="Generate Pickup Token" outgoing="_Vk6tgORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_GtPf4ORHEfGo0sCIQyOi3A" name="parcelrecord" incoming="_HckrEORHEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_GtQuAORHEfGo0sCIQyOi3A" value="1"/>
+      </inputValue>
+    </node>
     <node xmi:type="uml:OpaqueAction" xmi:id="_YYGjoOQ9EfGo0sCIQyOi3A" name="Store Parcel" incoming="_Yk6TwORBEfGo0sCIQyOi3A" outgoing="_aSkIYORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_gO6H0OQ9EfGo0sCIQyOi3A" name="Send Push and Email Notification" incoming="_XiqMkORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gO6H0OQ9EfGo0sCIQyOi3A" name="Send Push and Email Notification" incoming="_XiqMkORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_j6PlkORHEfGo0sCIQyOi3A" name="pickupnotification" outgoing="_3nkr0ORHEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_j6QzsORHEfGo0sCIQyOi3A" value="1"/>
+      </outputValue>
+    </node>
     <node xmi:type="uml:InitialNode" xmi:id="_6YJFEOQ-EfGo0sCIQyOi3A" name="InitialNode13" outgoing="_rW7dwORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
     <node xmi:type="uml:MergeNode" xmi:id="_baxYgOQ_EfGo0sCIQyOi3A" name="MergeNode14" incoming="_rW7dwORAEfGo0sCIQyOi3A _CRxW8ORDEfGo0sCIQyOi3A" outgoing="_r_eEcORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_dv75EOQ_EfGo0sCIQyOi3A" name="DecisionNode15" incoming="_CJczUORBEfGo0sCIQyOi3A" outgoing="_DqiyoORBEfGo0sCIQyOi3A _P2OsYORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
