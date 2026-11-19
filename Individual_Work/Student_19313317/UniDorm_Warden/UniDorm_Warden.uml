@@ -313,4 +313,48 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_r9IWYuQlEfGo0sCIQyOi3A" name="loan asset" type="_mvWQAN0sEfGiwY6kVP1AFA" association="_r9HIQOQlEfGo0sCIQyOi3A"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_r9IWY-QlEfGo0sCIQyOi3A" type="_NS9KoN0rEfGiwY6kVP1AFA" association="_r9HIQOQlEfGo0sCIQyOi3A"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_-oLTsOQ6EfGo0sCIQyOi3A" name="Intake Parcel" node="_MUavUOQ9EfGo0sCIQyOi3A _O-RGcOQ9EfGo0sCIQyOi3A _PbDwIOQ9EfGo0sCIQyOi3A _Uh8xcOQ9EfGo0sCIQyOi3A _XiX1gOQ9EfGo0sCIQyOi3A _XupW8OQ9EfGo0sCIQyOi3A _X8C5wOQ9EfGo0sCIQyOi3A _YYGjoOQ9EfGo0sCIQyOi3A _gO6H0OQ9EfGo0sCIQyOi3A _6YJFEOQ-EfGo0sCIQyOi3A _baxYgOQ_EfGo0sCIQyOi3A _dv75EOQ_EfGo0sCIQyOi3A _fPmVAOQ_EfGo0sCIQyOi3A _iL8KUOQ_EfGo0sCIQyOi3A _jxdWoOQ_EfGo0sCIQyOi3A _loOD8OQ_EfGo0sCIQyOi3A _nkEFkOQ_EfGo0sCIQyOi3A" group="_QMcmQOQ8EfGo0sCIQyOi3A _UXo0UOQ8EfGo0sCIQyOi3A _SaHXsOQ8EfGo0sCIQyOi3A">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rW7dwORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A" target="_baxYgOQ_EfGo0sCIQyOi3A" source="_6YJFEOQ-EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_r_eEcORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A" target="_MUavUOQ9EfGo0sCIQyOi3A" source="_baxYgOQ_EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CJczUORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A" target="_dv75EOQ_EfGo0sCIQyOi3A" source="_PbDwIOQ9EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DqiyoORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A" target="_fPmVAOQ_EfGo0sCIQyOi3A" source="_dv75EOQ_EfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralString" xmi:id="_yOUsAORDEfGo0sCIQyOi3A" name="LiteralString1" value="match found&#xD;&#xA;"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_P2OsYORBEfGo0sCIQyOi3A" target="_Uh8xcOQ9EfGo0sCIQyOi3A" source="_dv75EOQ_EfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralString" xmi:id="_1V9LUORDEfGo0sCIQyOi3A" name="LiteralString1" value="no match found&#xD;&#xA;"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RBYQ4ORBEfGo0sCIQyOi3A" target="_fPmVAOQ_EfGo0sCIQyOi3A" source="_Uh8xcOQ9EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TEHksORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A" target="_XupW8OQ9EfGo0sCIQyOi3A" source="_fPmVAOQ_EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Vk6tgORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A" target="_iL8KUOQ_EfGo0sCIQyOi3A" source="_X8C5wOQ9EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XiqMkORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A" target="_gO6H0OQ9EfGo0sCIQyOi3A" source="_iL8KUOQ_EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Yk6TwORBEfGo0sCIQyOi3A" target="_YYGjoOQ9EfGo0sCIQyOi3A" source="_iL8KUOQ_EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aSkIYORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A" target="_jxdWoOQ_EfGo0sCIQyOi3A" source="_YYGjoOQ9EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cwsXsORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A" target="_loOD8OQ_EfGo0sCIQyOi3A" source="_jxdWoOQ_EfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralString" xmi:id="_uOL3YORDEfGo0sCIQyOi3A" name="LiteralString1" value="no more parcels&#xD;&#xA;"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qhE-YORBEfGo0sCIQyOi3A" inPartition="_UXo0UOQ8EfGo0sCIQyOi3A" target="_nkEFkOQ_EfGo0sCIQyOi3A" source="_XiX1gOQ9EfGo0sCIQyOi3A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CRxW8ORDEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A" target="_baxYgOQ_EfGo0sCIQyOi3A" source="_jxdWoOQ_EfGo0sCIQyOi3A">
+      <guard xmi:type="uml:LiteralString" xmi:id="_ThUzMORDEfGo0sCIQyOi3A" name="LiteralString1" value="more parcels"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_QMcmQOQ8EfGo0sCIQyOi3A" name="Warden" node="_MUavUOQ9EfGo0sCIQyOi3A _Uh8xcOQ9EfGo0sCIQyOi3A _YYGjoOQ9EfGo0sCIQyOi3A _6YJFEOQ-EfGo0sCIQyOi3A _baxYgOQ_EfGo0sCIQyOi3A _jxdWoOQ_EfGo0sCIQyOi3A _loOD8OQ_EfGo0sCIQyOi3A" edge="_rW7dwORAEfGo0sCIQyOi3A _r_eEcORAEfGo0sCIQyOi3A _aSkIYORBEfGo0sCIQyOi3A _cwsXsORBEfGo0sCIQyOi3A _CRxW8ORDEfGo0sCIQyOi3A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_SaHXsOQ8EfGo0sCIQyOi3A" name="Warden Subsystem" node="_O-RGcOQ9EfGo0sCIQyOi3A _PbDwIOQ9EfGo0sCIQyOi3A _XupW8OQ9EfGo0sCIQyOi3A _X8C5wOQ9EfGo0sCIQyOi3A _gO6H0OQ9EfGo0sCIQyOi3A _dv75EOQ_EfGo0sCIQyOi3A _fPmVAOQ_EfGo0sCIQyOi3A _iL8KUOQ_EfGo0sCIQyOi3A" edge="_CJczUORBEfGo0sCIQyOi3A _DqiyoORBEfGo0sCIQyOi3A _TEHksORBEfGo0sCIQyOi3A _Vk6tgORBEfGo0sCIQyOi3A _XiqMkORBEfGo0sCIQyOi3A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_UXo0UOQ8EfGo0sCIQyOi3A" name="Student" node="_XiX1gOQ9EfGo0sCIQyOi3A _nkEFkOQ_EfGo0sCIQyOi3A" edge="_qhE-YORBEfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MUavUOQ9EfGo0sCIQyOi3A" name="Scan Parcel Label" incoming="_r_eEcORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_O-RGcOQ9EfGo0sCIQyOi3A" name="Extract Name and Room" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PbDwIOQ9EfGo0sCIQyOi3A" name="Match Against Resident Directory" visibility="protected" outgoing="_CJczUORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Uh8xcOQ9EfGo0sCIQyOi3A" name="Enter Recipient Manually" incoming="_P2OsYORBEfGo0sCIQyOi3A" outgoing="_RBYQ4ORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XiX1gOQ9EfGo0sCIQyOi3A" name="Receive Pickup Notification" outgoing="_qhE-YORBEfGo0sCIQyOi3A" inPartition="_UXo0UOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XupW8OQ9EfGo0sCIQyOi3A" name="Create Parcel Record" incoming="_TEHksORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_X8C5wOQ9EfGo0sCIQyOi3A" name="Generate Pickup Token" outgoing="_Vk6tgORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YYGjoOQ9EfGo0sCIQyOi3A" name="Store Parcel" incoming="_Yk6TwORBEfGo0sCIQyOi3A" outgoing="_aSkIYORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gO6H0OQ9EfGo0sCIQyOi3A" name="Send Push and Email Notification" incoming="_XiqMkORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_6YJFEOQ-EfGo0sCIQyOi3A" name="InitialNode13" outgoing="_rW7dwORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_baxYgOQ_EfGo0sCIQyOi3A" name="MergeNode14" incoming="_rW7dwORAEfGo0sCIQyOi3A _CRxW8ORDEfGo0sCIQyOi3A" outgoing="_r_eEcORAEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_dv75EOQ_EfGo0sCIQyOi3A" name="DecisionNode15" incoming="_CJczUORBEfGo0sCIQyOi3A" outgoing="_DqiyoORBEfGo0sCIQyOi3A _P2OsYORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_fPmVAOQ_EfGo0sCIQyOi3A" name="MergeNode16" incoming="_DqiyoORBEfGo0sCIQyOi3A _RBYQ4ORBEfGo0sCIQyOi3A" outgoing="_TEHksORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_iL8KUOQ_EfGo0sCIQyOi3A" name="ForkNode17" incoming="_Vk6tgORBEfGo0sCIQyOi3A" outgoing="_XiqMkORBEfGo0sCIQyOi3A _Yk6TwORBEfGo0sCIQyOi3A" inPartition="_SaHXsOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_jxdWoOQ_EfGo0sCIQyOi3A" name="DecisionNode18" incoming="_aSkIYORBEfGo0sCIQyOi3A" outgoing="_cwsXsORBEfGo0sCIQyOi3A _CRxW8ORDEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_loOD8OQ_EfGo0sCIQyOi3A" name="ActivityFinalNode19" incoming="_cwsXsORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_nkEFkOQ_EfGo0sCIQyOi3A" name="FlowFinalNode20" incoming="_qhE-YORBEfGo0sCIQyOi3A" inPartition="_UXo0UOQ8EfGo0sCIQyOi3A"/>
+  </packagedElement>
 </uml:Model>
