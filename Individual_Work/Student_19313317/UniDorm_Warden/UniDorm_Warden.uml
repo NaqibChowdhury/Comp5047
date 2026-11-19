@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hmfxwN0qEfGiwY6kVP1AFA" name="UniDorm_Warden">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_hswKwN0qEfGiwY6kVP1AFA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="__T1kYN0qEfGiwY6kVP1AFA" name="Warden Subsystem" useCase="_pjLfAN0rEfGiwY6kVP1AFA _unS5IN0rEfGiwY6kVP1AFA _wTzeQN0rEfGiwY6kVP1AFA _-_OJ0N0rEfGiwY6kVP1AFA _BNXcYN0sEfGiwY6kVP1AFA _DnZ14N0sEfGiwY6kVP1AFA _GW_ooN0sEfGiwY6kVP1AFA _HtdFQN0sEfGiwY6kVP1AFA _U5isEN0sEfGiwY6kVP1AFA _XBwVwN0sEfGiwY6kVP1AFA _XRsPMN0sEfGiwY6kVP1AFA _XuI6oN0sEfGiwY6kVP1AFA _YJjrUN0sEfGiwY6kVP1AFA _ZUt24N0sEfGiwY6kVP1AFA _ZuPKIN0sEfGiwY6kVP1AFA _mS_EIN0sEfGiwY6kVP1AFA _mvWQAN0sEfGiwY6kVP1AFA _nIcFcN0sEfGiwY6kVP1AFA _nf_p0N0sEfGiwY6kVP1AFA _n2QNsN0sEfGiwY6kVP1AFA _oImh8N0sEfGiwY6kVP1AFA _pBR2YN0sEfGiwY6kVP1AFA _pdHd0N0sEfGiwY6kVP1AFA _p2HzsN0sEfGiwY6kVP1AFA _CC6H0N0tEfGiwY6kVP1AFA _CSElMN0tEfGiwY6kVP1AFA _CepBkN0tEfGiwY6kVP1AFA _DCFF0N0tEfGiwY6kVP1AFA _aD5boN0tEfGiwY6kVP1AFA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pjLfAN0rEfGiwY6kVP1AFA" name="Log In" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_unS5IN0rEfGiwY6kVP1AFA" name="Record Shift Handover" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_wTzeQN0rEfGiwY6kVP1AFA" name="Set Duty Status" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-_OJ0N0rEfGiwY6kVP1AFA" name="Triage Maintenance Ticket" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8Eg58N0wEfGiwY6kVP1AFA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_X6Rf4d0xEfGiwY6kVP1AFA" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_BNXcYN0sEfGiwY6kVP1AFA" name="Resolve Ticket Locally" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__oYCQN0wEfGiwY6kVP1AFA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Knv54N0xEfGiwY6kVP1AFA" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_DnZ14N0sEfGiwY6kVP1AFA" name="Escalate to Contractor" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <extend xmi:type="uml:Extend" xmi:id="_X6Rf4N0xEfGiwY6kVP1AFA" extendedCase="_-_OJ0N0rEfGiwY6kVP1AFA" extensionLocation="_X6Rf4d0xEfGiwY6kVP1AFA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_GW_ooN0sEfGiwY6kVP1AFA" name="Close Ticket" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <include xmi:type="uml:Include" xmi:id="_1nLDEN0wEfGiwY6kVP1AFA" addition="_HtdFQN0sEfGiwY6kVP1AFA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HtdFQN0sEfGiwY6kVP1AFA" name="Capture Proof-of-repair" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_U5isEN0sEfGiwY6kVP1AFA" name="Track Spare Parts" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <extend xmi:type="uml:Extend" xmi:id="_KnvS0N0xEfGiwY6kVP1AFA" extendedCase="_BNXcYN0sEfGiwY6kVP1AFA" extensionLocation="_Knv54N0xEfGiwY6kVP1AFA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XBwVwN0sEfGiwY6kVP1AFA" name="Call Out Emergency Contractor" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XRsPMN0sEfGiwY6kVP1AFA" name="Intake Parcel" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <include xmi:type="uml:Include" xmi:id="_37XTQN0wEfGiwY6kVP1AFA" addition="_XuI6oN0sEfGiwY6kVP1AFA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XuI6oN0sEfGiwY6kVP1AFA" name="Scan parcel label" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YJjrUN0sEfGiwY6kVP1AFA" name="Hand Over Parcel" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZUt24N0sEfGiwY6kVP1AFA" name="Audit Overdue Parcels" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZuPKIN0sEfGiwY6kVP1AFA" name="Check in Visitor" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mS_EIN0sEfGiwY6kVP1AFA" name="Issue Temporary Key" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mvWQAN0sEfGiwY6kVP1AFA" name="Loan Asset" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nIcFcN0sEfGiwY6kVP1AFA" name="Return Asset" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nf_p0N0sEfGiwY6kVP1AFA" name="Review Overdue Loans" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_n2QNsN0sEfGiwY6kVP1AFA" name="Conduct Inspection" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FR1lIN0xEfGiwY6kVP1AFA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GyLWgN0xEfGiwY6kVP1AFA" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_oImh8N0sEfGiwY6kVP1AFA" name="Assess Damage (AI)" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <extend xmi:type="uml:Extend" xmi:id="_FR0XAN0xEfGiwY6kVP1AFA" extendedCase="_n2QNsN0sEfGiwY6kVP1AFA" extensionLocation="_FR1lIN0xEfGiwY6kVP1AFA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pBR2YN0sEfGiwY6kVP1AFA" name="Respond to IoT Alert" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pdHd0N0sEfGiwY6kVP1AFA" name="Log Incident" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_p2HzsN0sEfGiwY6kVP1AFA" name="Send Emergency Broadcast" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_CC6H0N0tEfGiwY6kVP1AFA" name="Conduct Welfare Check" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_CSElMN0tEfGiwY6kVP1AFA" name="Monitor Evacuation Headcount" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_CepBkN0tEfGiwY6kVP1AFA" name="Publish Hall Notice" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_DCFF0N0tEfGiwY6kVP1AFA" name="Chat with Resident" subject="__T1kYN0qEfGiwY6kVP1AFA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_aD5boN0tEfGiwY6kVP1AFA" name="Sync Offline Inspection Data" subject="__T1kYN0qEfGiwY6kVP1AFA">
+      <extend xmi:type="uml:Extend" xmi:id="_GyKvcN0xEfGiwY6kVP1AFA" extendedCase="_n2QNsN0sEfGiwY6kVP1AFA" extensionLocation="_GyLWgN0xEfGiwY6kVP1AFA"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_NS9KoN0rEfGiwY6kVP1AFA" name="Warden"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RXxq8N0rEfGiwY6kVP1AFA" name="University SSO"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_S-GIgN0rEfGiwY6kVP1AFA" name="Student"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TuTdcN0rEfGiwY6kVP1AFA" name="Accommodation Office"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ViuBYN0rEfGiwY6kVP1AFA" name="External Contractor"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_X61IQN0rEfGiwY6kVP1AFA" name="IoT Sensor"/>
+</uml:Model>
