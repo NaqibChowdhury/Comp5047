@@ -404,4 +404,88 @@
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_loOD8OQ_EfGo0sCIQyOi3A" name="ActivityFinalNode19" incoming="_cwsXsORBEfGo0sCIQyOi3A" inPartition="_QMcmQOQ8EfGo0sCIQyOi3A"/>
     <node xmi:type="uml:FlowFinalNode" xmi:id="_nkEFkOQ_EfGo0sCIQyOi3A" name="FlowFinalNode20" incoming="_qhE-YORBEfGo0sCIQyOi3A" inPartition="_UXo0UOQ8EfGo0sCIQyOi3A"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ILVBgOdHEfGoSfLJjobQpQ" name="Shift Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gI2VIOdIEfGoSfLJjobQpQ" client="_ILVBgOdHEfGoSfLJjobQpQ" supplier="_AHU5YOdIEfGoSfLJjobQpQ" contract="_AHU5YOdIEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_JgjIAOdHEfGoSfLJjobQpQ" name="Maintenance Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_lXFUkOdIEfGoSfLJjobQpQ" client="_JgjIAOdHEfGoSfLJjobQpQ" supplier="_KHn5oOdIEfGoSfLJjobQpQ" contract="_KHn5oOdIEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_MIjsEOdHEfGoSfLJjobQpQ" name="Parcel Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_mFhu8OdIEfGoSfLJjobQpQ" client="_MIjsEOdHEfGoSfLJjobQpQ" supplier="_9uXd8OdHEfGoSfLJjobQpQ" contract="_9uXd8OdHEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_3cIRkOdMEfGoSfLJjobQpQ" client="_MIjsEOdHEfGoSfLJjobQpQ" supplier="_1UQmIOdMEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_4W_h4OdNEfGoSfLJjobQpQ" client="_MIjsEOdHEfGoSfLJjobQpQ" supplier="_1tSUsOdNEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_N435gOdPEfGoSfLJjobQpQ" client="_MIjsEOdHEfGoSfLJjobQpQ" supplier="_CdATIOdPEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_M9yD4OdHEfGoSfLJjobQpQ" name="Visitor &amp; Asset Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_m3leAOdIEfGoSfLJjobQpQ" client="_M9yD4OdHEfGoSfLJjobQpQ" supplier="_BwsD4OdIEfGoSfLJjobQpQ" contract="_BwsD4OdIEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="__u0EAOdNEfGoSfLJjobQpQ" client="_M9yD4OdHEfGoSfLJjobQpQ" supplier="_1tSUsOdNEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_NqupcOdHEfGoSfLJjobQpQ" name="Inspection Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_kP97gOdIEfGoSfLJjobQpQ" client="_NqupcOdHEfGoSfLJjobQpQ" supplier="_CiTHAOdIEfGoSfLJjobQpQ" contract="_CiTHAOdIEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_MH2AwOdPEfGoSfLJjobQpQ" client="_NqupcOdHEfGoSfLJjobQpQ" supplier="_B-M3QOdPEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_YJaVMOdPEfGoSfLJjobQpQ" client="_NqupcOdHEfGoSfLJjobQpQ" supplier="_CdATIOdPEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_OcOX0OdHEfGoSfLJjobQpQ" name="Incident &amp; Emergency Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_mdvaoOdIEfGoSfLJjobQpQ" client="_OcOX0OdHEfGoSfLJjobQpQ" supplier="_E4s9sOdIEfGoSfLJjobQpQ" contract="_E4s9sOdIEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_8bwNQOdMEfGoSfLJjobQpQ" client="_OcOX0OdHEfGoSfLJjobQpQ" supplier="_1UQmIOdMEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_PgdcAOdHEfGoSfLJjobQpQ" name="Resident Communication Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_nOeUAOdIEfGoSfLJjobQpQ" client="_PgdcAOdHEfGoSfLJjobQpQ" supplier="_GDmqkOdIEfGoSfLJjobQpQ" contract="_GDmqkOdIEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9w5bQOdMEfGoSfLJjobQpQ" client="_PgdcAOdHEfGoSfLJjobQpQ" supplier="_1UQmIOdMEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_9uXd8OdHEfGoSfLJjobQpQ" name="IParcel"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_AHU5YOdIEfGoSfLJjobQpQ" name="IShiftLog"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_BwsD4OdIEfGoSfLJjobQpQ" name="IVisitorAsset"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_CiTHAOdIEfGoSfLJjobQpQ" name="IInspection"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_E4s9sOdIEfGoSfLJjobQpQ" name="IIncident"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_GDmqkOdIEfGoSfLJjobQpQ" name="IResComms"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_KHn5oOdIEfGoSfLJjobQpQ" name="IMaintenance"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_6zhA8OdIEfGoSfLJjobQpQ" name="Warden Mobile App">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_MG0fUOdKEfGoSfLJjobQpQ" client="_6zhA8OdIEfGoSfLJjobQpQ" supplier="_z3f0kOdJEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_8C2h4OdIEfGoSfLJjobQpQ" name="Warden Web Dashboard">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_LngtIOdKEfGoSfLJjobQpQ" client="_8C2h4OdIEfGoSfLJjobQpQ" supplier="_z3f0kOdJEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_9juewOdIEfGoSfLJjobQpQ" name="Warden API">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2UZ74OdJEfGoSfLJjobQpQ" client="_9juewOdIEfGoSfLJjobQpQ" supplier="_z3f0kOdJEfGoSfLJjobQpQ" contract="_z3f0kOdJEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ZY3kMOdKEfGoSfLJjobQpQ" client="_9juewOdIEfGoSfLJjobQpQ" supplier="_GDmqkOdIEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_jbFQAOdKEfGoSfLJjobQpQ" client="_9juewOdIEfGoSfLJjobQpQ" supplier="_AHU5YOdIEfGoSfLJjobQpQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ObsIIOdOEfGoSfLJjobQpQ" client="_9juewOdIEfGoSfLJjobQpQ" supplier="_JXRMAOdOEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_z3f0kOdJEfGoSfLJjobQpQ" name="IWardenAPI"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_bNbSEOdKEfGoSfLJjobQpQ" client="_9juewOdIEfGoSfLJjobQpQ" supplier="_BwsD4OdIEfGoSfLJjobQpQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cVshsOdKEfGoSfLJjobQpQ" client="_9juewOdIEfGoSfLJjobQpQ" supplier="_E4s9sOdIEfGoSfLJjobQpQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_eKnb8OdKEfGoSfLJjobQpQ" client="_hmfxwN0qEfGiwY6kVP1AFA _9juewOdIEfGoSfLJjobQpQ" supplier="_9uXd8OdHEfGoSfLJjobQpQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_h3U-QOdKEfGoSfLJjobQpQ" client="_eKnb8OdKEfGoSfLJjobQpQ" supplier="_KHn5oOdIEfGoSfLJjobQpQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_idTZIOdKEfGoSfLJjobQpQ" client="_eKnb8OdKEfGoSfLJjobQpQ" supplier="_CiTHAOdIEfGoSfLJjobQpQ"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_HyFBwOdMEfGoSfLJjobQpQ" name="Notification Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_5yu8kOdMEfGoSfLJjobQpQ" client="_HyFBwOdMEfGoSfLJjobQpQ" supplier="_1UQmIOdMEfGoSfLJjobQpQ" contract="_1UQmIOdMEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_1UQmIOdMEfGoSfLJjobQpQ" name="INotif"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_0Ws8QOdNEfGoSfLJjobQpQ" name="Resident Directory Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_5tO8EOdNEfGoSfLJjobQpQ" client="_0Ws8QOdNEfGoSfLJjobQpQ" supplier="_1tSUsOdNEfGoSfLJjobQpQ" contract="_1tSUsOdNEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_1tSUsOdNEfGoSfLJjobQpQ" name="IResidentDirectory"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_JXRMAOdOEfGoSfLJjobQpQ" name="IAuth"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_JoCL4OdOEfGoSfLJjobQpQ" name="Identity Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MdA08OdOEfGoSfLJjobQpQ" client="_JoCL4OdOEfGoSfLJjobQpQ" supplier="_JXRMAOdOEfGoSfLJjobQpQ" contract="_JXRMAOdOEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_TUDlQOdOEfGoSfLJjobQpQ" name="Ticket Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_lb7woOdOEfGoSfLJjobQpQ" client="_TUDlQOdOEfGoSfLJjobQpQ" supplier="_TguvUOdOEfGoSfLJjobQpQ" contract="_TguvUOdOEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_TguvUOdOEfGoSfLJjobQpQ" name="ITicket"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_gh-YEOdOEfGoSfLJjobQpQ" name="IWorkOrder"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_g4W3wOdOEfGoSfLJjobQpQ" name="Work Order Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_j5a1AOdOEfGoSfLJjobQpQ" client="_g4W3wOdOEfGoSfLJjobQpQ" supplier="_gh-YEOdOEfGoSfLJjobQpQ" contract="_gh-YEOdOEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qK7PUOdOEfGoSfLJjobQpQ" client="_JgjIAOdHEfGoSfLJjobQpQ" supplier="_TguvUOdOEfGoSfLJjobQpQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rEc4UOdOEfGoSfLJjobQpQ" client="_JgjIAOdHEfGoSfLJjobQpQ" supplier="_gh-YEOdOEfGoSfLJjobQpQ"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_BvqE8OdPEfGoSfLJjobQpQ" name="IoT Gateway">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_DOCHcOdPEfGoSfLJjobQpQ" client="_BvqE8OdPEfGoSfLJjobQpQ" supplier="_B-M3QOdPEfGoSfLJjobQpQ" contract="_B-M3QOdPEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_B-M3QOdPEfGoSfLJjobQpQ" name="IIoTAlert"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_CdATIOdPEfGoSfLJjobQpQ" name="IAIModel"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_CobgAOdPEfGoSfLJjobQpQ" name="AI Model Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_C8XIoOdPEfGoSfLJjobQpQ" client="_CobgAOdPEfGoSfLJjobQpQ" supplier="_CdATIOdPEfGoSfLJjobQpQ" contract="_CdATIOdPEfGoSfLJjobQpQ"/>
+  </packagedElement>
 </uml:Model>
