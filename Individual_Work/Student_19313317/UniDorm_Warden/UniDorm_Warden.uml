@@ -488,4 +488,65 @@
   <packagedElement xmi:type="uml:Component" xmi:id="_CobgAOdPEfGoSfLJjobQpQ" name="AI Model Service">
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_C8XIoOdPEfGoSfLJjobQpQ" client="_CobgAOdPEfGoSfLJjobQpQ" supplier="_CdATIOdPEfGoSfLJjobQpQ" contract="_CdATIOdPEfGoSfLJjobQpQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oQIOMOdcEfGoSfLJjobQpQ" name="ParcelController">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4W4moOdtEfGoSfLJjobQpQ" name="basePath" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o29ksOdcEfGoSfLJjobQpQ" name="ParcelIntakeManager">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4vlz0OdoEfGoSfLJjobQpQ" name="Property1" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o-d64OdcEfGoSfLJjobQpQ" name="LabelData"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pFXNEOdcEfGoSfLJjobQpQ" name="PickupToken" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nnZj0OdoEfGoSfLJjobQpQ" name="code" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tO6l8OdoEfGoSfLJjobQpQ" name="expiresAt" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xsY20OdoEfGoSfLJjobQpQ" name="used" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pM2VIOdcEfGoSfLJjobQpQ" name="ParcelRepository">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1z-lAOdtEfGoSfLJjobQpQ" name="retentionDays" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pULFIOdcEfGoSfLJjobQpQ" name="NotificationClient">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yHpdMOdtEfGoSfLJjobQpQ" name="notificationEndpoint" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pbgcMOdcEfGoSfLJjobQpQ" name="Parcel" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_38-vUOdhEfGoSfLJjobQpQ" name="parcelId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4C9MwOdnEfGoSfLJjobQpQ" name="recipientName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_J2A-sOdoEfGoSfLJjobQpQ" name="roomNumber" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Wx-e0OdoEfGoSfLJjobQpQ" name="status" visibility="private" type="_W9RCcOdgEfGoSfLJjobQpQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pirbMOdcEfGoSfLJjobQpQ" name="ResidentMatcher">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vIfkcOdtEfGoSfLJjobQpQ" name="directoryEndpoint" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pqbpAOdcEfGoSfLJjobQpQ" name="OCRClient">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_alO7wOdtEfGoSfLJjobQpQ" name="modelEndpoint" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_W9RCcOdgEfGoSfLJjobQpQ" name="ParcelStatus"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4VWzEOdhEfGoSfLJjobQpQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4VadcOdhEfGoSfLJjobQpQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>
