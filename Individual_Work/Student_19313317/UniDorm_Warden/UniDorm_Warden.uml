@@ -492,13 +492,46 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_4W4moOdtEfGoSfLJjobQpQ" name="basePath" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O5Zn8OeHEfGZPMz72qNP_Q" name="scanLabel" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VrLBQOeIEfGZPMz72qNP_Q" name="labelImage">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VKFJkOeMEfGBgcEusQZBww" name="handOverParcel">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_X4B9kOeMEfGBgcEusQZBww" name="parcelID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bHXnYOeMEfGBgcEusQZBww" name="pickupCode">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_o29ksOdcEfGoSfLJjobQpQ" name="ParcelIntakeManager">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_4vlz0OdoEfGoSfLJjobQpQ" name="Property1" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4vlz0OdoEfGoSfLJjobQpQ" name="confidenceThreshold" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9xi5sOeHEfGZPMz72qNP_Q" name="processScan">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4Oj80OeIEfGZPMz72qNP_Q" name="labelImage">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_o-d64OdcEfGoSfLJjobQpQ" name="LabelData"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o-d64OdcEfGoSfLJjobQpQ" name="LabelData">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZszyEOeFEfGZPMz72qNP_Q" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dDsOUOeFEfGZPMz72qNP_Q" name="roomNumber" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ghMP8OeFEfGZPMz72qNP_Q" name="confidence" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OZhbwOeMEfGBgcEusQZBww" name="isConfident">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QfWf0OeMEfGBgcEusQZBww" name="threshold">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pFXNEOdcEfGoSfLJjobQpQ" name="PickupToken" visibility="public">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_nnZj0OdoEfGoSfLJjobQpQ" name="code" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -509,16 +542,30 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_xsY20OdoEfGoSfLJjobQpQ" name="used" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_J9y3UOeMEfGBgcEusQZBww" name="isValid">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_L9EAYOeMEfGBgcEusQZBww" name="code">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pM2VIOdcEfGoSfLJjobQpQ" name="ParcelRepository">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_1z-lAOdtEfGoSfLJjobQpQ" name="retentionDays" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tG85wOeJEfGZPMz72qNP_Q" name="save">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ub3eQOeJEfGZPMz72qNP_Q" name="parcel" type="_pbgcMOdcEfGoSfLJjobQpQ"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pULFIOdcEfGoSfLJjobQpQ" name="NotificationClient">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_yHpdMOdtEfGoSfLJjobQpQ" name="notificationEndpoint" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_d8jzMOeJEfGZPMz72qNP_Q" name="sendPickupNotice">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_guCcUOeJEfGZPMz72qNP_Q" name="residentId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_i8mloOeJEfGZPMz72qNP_Q" name="token" type="_pFXNEOdcEfGoSfLJjobQpQ"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pbgcMOdcEfGoSfLJjobQpQ" name="Parcel" visibility="private">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_38-vUOdhEfGoSfLJjobQpQ" name="parcelId" visibility="private">
@@ -531,18 +578,37 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Wx-e0OdoEfGoSfLJjobQpQ" name="status" visibility="private" type="_W9RCcOdgEfGoSfLJjobQpQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_60SsIOeMEfGBgcEusQZBww" name="markCollected"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pirbMOdcEfGoSfLJjobQpQ" name="ResidentMatcher">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_vIfkcOdtEfGoSfLJjobQpQ" name="directoryEndpoint" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WNiSAOeJEfGZPMz72qNP_Q" name="findResident">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_X2a7YOeJEfGZPMz72qNP_Q" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aSCCMOeJEfGZPMz72qNP_Q" name="roomNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pqbpAOdcEfGoSfLJjobQpQ" name="OCRClient">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_alO7wOdtEfGoSfLJjobQpQ" name="modelEndpoint" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OB1b4OeJEfGZPMz72qNP_Q" name="extractLabel">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_SJB6wOeJEfGZPMz72qNP_Q" name="labelImage">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_W9RCcOdgEfGoSfLJjobQpQ" name="ParcelStatus"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_W9RCcOdgEfGoSfLJjobQpQ" name="ParcelStatus">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_qERvwOeFEfGZPMz72qNP_Q" name="LOGGED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_rYRHMOeFEfGZPMz72qNP_Q" name="NOTIFIED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_sbKHkOeFEfGZPMz72qNP_Q" name="COLLECTED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_tVxVsOeFEfGZPMz72qNP_Q" name="OVERDUE"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4VWzEOdhEfGoSfLJjobQpQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4VadcOdhEfGoSfLJjobQpQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
