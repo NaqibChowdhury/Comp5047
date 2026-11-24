@@ -28,7 +28,7 @@
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_g9BqYOgUEfGFN9HVlxXqwQ" name="View/Dispute Deposit Deductions" subject="_5dNSEOgIEfGFN9HVlxXqwQ"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zqZvgOgUEfGFN9HVlxXqwQ" name="Pay for Laundry" subject="_5dNSEOgIEfGFN9HVlxXqwQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_Bto3MOgJEfGFN9HVlxXqwQ" name="Student/Resident"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Bto3MOgJEfGFN9HVlxXqwQ" name="Student"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_3dH0MOgJEfGFN9HVlxXqwQ" memberEnd="_3dJpYegJEfGFN9HVlxXqwQ _3dKQcOgJEfGFN9HVlxXqwQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3dJCUOgJEfGFN9HVlxXqwQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3dJpYOgJEfGFN9HVlxXqwQ" key="nature" value="UML_Nature"/>
