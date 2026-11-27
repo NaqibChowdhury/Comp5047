@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1Gii4OpwEfG-D_L9JvkWhw" type="PapyrusUMLComponentDiagram" name="Student_Subsystem_Architecture" measurementUnit="Pixel">
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_1Gii4epwEfG-D_L9JvkWhw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_1Gii4upwEfG-D_L9JvkWhw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_1Gii4-pwEfG-D_L9JvkWhw" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+    <owner xmi:type="uml:Model" href="UniDorm_Student_Subsystem_Architecture.uml#_pK3bEOpwEfG-D_L9JvkWhw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="UniDorm_Student_Subsystem_Architecture.uml#_pK3bEOpwEfG-D_L9JvkWhw"/>
+</notation:Diagram>
