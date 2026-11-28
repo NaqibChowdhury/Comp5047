@@ -4,7 +4,7 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Component" xmi:id="_SrLakOpzEfG-D_L9JvkWhw" name="Student Account Service">
-    <ownedAttribute xmi:type="uml:Port" xmi:id="_QF1Y4OqHEfG-D_L9JvkWhw" name="AuthenticationPort" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_QF1Y4OqHEfG-D_L9JvkWhw" name="" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_AVgfQOp9EfG-D_L9JvkWhw" client="_SrLakOpzEfG-D_L9JvkWhw" supplier="_pod8EOp7EfG-D_L9JvkWhw" contract="_pod8EOp7EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_FMGBcOqCEfG-D_L9JvkWhw" client="_SrLakOpzEfG-D_L9JvkWhw" supplier="_PrFssOp-EfG-D_L9JvkWhw"/>
   </packagedElement>
@@ -12,47 +12,80 @@
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QejmcOp9EfG-D_L9JvkWhw" client="_fNCYoOpzEfG-D_L9JvkWhw" supplier="_9yrLkOp7EfG-D_L9JvkWhw" contract="_9yrLkOp7EfG-D_L9JvkWhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_l5qBoOpzEfG-D_L9JvkWhw" name="Digital Key Access Service">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_rsTnkOs1EfGrCPfUWQoQTw" name="Port3" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_WUWVIOp9EfG-D_L9JvkWhw" client="_l5qBoOpzEfG-D_L9JvkWhw" supplier="_LVhFgOp8EfG-D_L9JvkWhw" contract="_LVhFgOp8EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_OpVX8OqCEfG-D_L9JvkWhw" client="_l5qBoOpzEfG-D_L9JvkWhw" supplier="_WJukEOp-EfG-D_L9JvkWhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_wIkFoOpzEfG-D_L9JvkWhw" name="Maintenance Service">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_2YrjUOs4EfGrCPfUWQoQTw" name="Port5" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_6HKnQOs4EfGrCPfUWQoQTw" name="Port6" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_7gH-QOs4EfGrCPfUWQoQTw" name="Port7" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_XExFcOp9EfG-D_L9JvkWhw" client="_wIkFoOpzEfG-D_L9JvkWhw" supplier="_PO8OIOp8EfG-D_L9JvkWhw" contract="_PO8OIOp8EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_Rui1YOqCEfG-D_L9JvkWhw" client="_wIkFoOpzEfG-D_L9JvkWhw" supplier="_arNLMOp-EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_TdaK8OqCEfG-D_L9JvkWhw" client="_wIkFoOpzEfG-D_L9JvkWhw" supplier="_dFQLwOp-EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_UUQTYOqCEfG-D_L9JvkWhw" client="_wIkFoOpzEfG-D_L9JvkWhw" supplier="_nFhPcOqBEfG-D_L9JvkWhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_1FMXsOpzEfG-D_L9JvkWhw" name="Visitor and Amenities Service">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_4p9JwOs1EfGrCPfUWQoQTw" name="Port3" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_b5-g4Op9EfG-D_L9JvkWhw" client="_1FMXsOpzEfG-D_L9JvkWhw" supplier="_R8D7sOp8EfG-D_L9JvkWhw" contract="_R8D7sOp8EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_WCNqAOqCEfG-D_L9JvkWhw" client="_1FMXsOpzEfG-D_L9JvkWhw" supplier="_hvVVQOp-EfG-D_L9JvkWhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_f9i2QOp4EfG-D_L9JvkWhw" name="Facilities Service">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_y9tRQOs4EfGrCPfUWQoQTw" name="Port4" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_dx2BcOp9EfG-D_L9JvkWhw" client="_f9i2QOp4EfG-D_L9JvkWhw" supplier="_buWVIOp8EfG-D_L9JvkWhw" contract="_buWVIOp8EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_W-1DQOqCEfG-D_L9JvkWhw" client="_f9i2QOp4EfG-D_L9JvkWhw" supplier="_lXuYQOp-EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_YEDl8OqCEfG-D_L9JvkWhw" client="_f9i2QOp4EfG-D_L9JvkWhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_h0uaUOp4EfG-D_L9JvkWhw" name="Parcel Service">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_sS6NMOs4EfGrCPfUWQoQTw" name="Port4" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_tBqJkOs4EfGrCPfUWQoQTw" name="Port5" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_eaPeMOp9EfG-D_L9JvkWhw" client="_h0uaUOp4EfG-D_L9JvkWhw" supplier="_erQLIOp8EfG-D_L9JvkWhw" contract="_erQLIOp8EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_ZvyvAOqCEfG-D_L9JvkWhw" client="_h0uaUOp4EfG-D_L9JvkWhw" supplier="_CMvbwOp_EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_adjz8OqCEfG-D_L9JvkWhw" client="_h0uaUOp4EfG-D_L9JvkWhw" supplier="_u-hMAOqBEfG-D_L9JvkWhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_kv4j4Op4EfG-D_L9JvkWhw" name="Billing and Payment Services">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_8gc6MOs1EfGrCPfUWQoQTw" name="Port3" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MO2PUOp-EfG-D_L9JvkWhw" client="_kv4j4Op4EfG-D_L9JvkWhw" supplier="__pmmEOp9EfG-D_L9JvkWhw" contract="__pmmEOp9EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_bNrCQOqCEfG-D_L9JvkWhw" client="_kv4j4Op4EfG-D_L9JvkWhw" supplier="_oHRHsOp-EfG-D_L9JvkWhw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_nQZY0Op4EfG-D_L9JvkWhw" name="Student Support Service">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_L34FQOs4EfGrCPfUWQoQTw" name="Port6" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_RHe9sOs4EfGrCPfUWQoQTw" name="Port7" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_SwYOIOs4EfGrCPfUWQoQTw" name="Port8" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_jQcuMOs4EfGrCPfUWQoQTw" name="Port9" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gdB1UOp9EfG-D_L9JvkWhw" client="_nQZY0Op4EfG-D_L9JvkWhw" supplier="_klFFQOp8EfG-D_L9JvkWhw" contract="_klFFQOp8EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_cQa4sOqCEfG-D_L9JvkWhw" client="_nQZY0Op4EfG-D_L9JvkWhw" supplier="_uYktsOp-EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_dFQO8OqCEfG-D_L9JvkWhw" client="_nQZY0Op4EfG-D_L9JvkWhw" supplier="_rWtfMOp-EfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_iXj2EOqCEfG-D_L9JvkWhw" client="_nQZY0Op4EfG-D_L9JvkWhw" supplier="_TyYK0OqBEfG-D_L9JvkWhw"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_jFc20OqCEfG-D_L9JvkWhw" client="_nQZY0Op4EfG-D_L9JvkWhw" supplier="_Rq9LUOqBEfG-D_L9JvkWhw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_Gk6vMOp6EfG-D_L9JvkWhw" name="University Identity Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_MsnGMOp6EfG-D_L9JvkWhw" name="Smart Lock Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_PODIMOp6EfG-D_L9JvkWhw" name="AI Fault Assesment Service "/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_T-UZQOp6EfG-D_L9JvkWhw" name="Notification Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_VnhLsOp6EfG-D_L9JvkWhw" name="Facilities and IoT Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_X_z4wOp6EfG-D_L9JvkWhw" name="Warden/Staff Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_aClo0Op6EfG-D_L9JvkWhw" name="Payment Gateway"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Gk6vMOp6EfG-D_L9JvkWhw" name="University Identity Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_bsZOQOs1EfGrCPfUWQoQTw" client="_Gk6vMOp6EfG-D_L9JvkWhw" supplier="_Fn-k0OqFEfG-D_L9JvkWhw" contract="_Fn-k0OqFEfG-D_L9JvkWhw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_MsnGMOp6EfG-D_L9JvkWhw" name="Smart Lock Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Qxg4QOs5EfGrCPfUWQoQTw" client="_MsnGMOp6EfG-D_L9JvkWhw" supplier="_Ic4VYOqFEfG-D_L9JvkWhw" contract="_Ic4VYOqFEfG-D_L9JvkWhw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_PODIMOp6EfG-D_L9JvkWhw" name="AI Fault Assesment Service ">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_DW4CoOs6EfGrCPfUWQoQTw" client="_PODIMOp6EfG-D_L9JvkWhw" supplier="_KuNe0OqFEfG-D_L9JvkWhw" contract="_KuNe0OqFEfG-D_L9JvkWhw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_T-UZQOp6EfG-D_L9JvkWhw" name="Notification Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ARISUOs9EfGrCPfUWQoQTw" client="_T-UZQOp6EfG-D_L9JvkWhw" supplier="_VmfP8OqFEfG-D_L9JvkWhw" contract="_VmfP8OqFEfG-D_L9JvkWhw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JK5IUOs9EfGrCPfUWQoQTw" client="_T-UZQOp6EfG-D_L9JvkWhw" supplier="_cbQvYOqFEfG-D_L9JvkWhw" contract="_cbQvYOqFEfG-D_L9JvkWhw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Rqw3oOs9EfGrCPfUWQoQTw" client="_T-UZQOp6EfG-D_L9JvkWhw" supplier="_RzBlYOqFEfG-D_L9JvkWhw" contract="_RzBlYOqFEfG-D_L9JvkWhw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_VnhLsOp6EfG-D_L9JvkWhw" name="Facilities and IoT Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Dr-okOs9EfGrCPfUWQoQTw" client="_VnhLsOp6EfG-D_L9JvkWhw" supplier="_8kjnEOqFEfG-D_L9JvkWhw" contract="_8kjnEOqFEfG-D_L9JvkWhw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_OzKYYOs9EfGrCPfUWQoQTw" client="_VnhLsOp6EfG-D_L9JvkWhw" supplier="__-A2MOqFEfG-D_L9JvkWhw" contract="__-A2MOqFEfG-D_L9JvkWhw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_X_z4wOp6EfG-D_L9JvkWhw" name="Warden/Staff Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8TQukOs8EfGrCPfUWQoQTw" client="_X_z4wOp6EfG-D_L9JvkWhw" supplier="_teHzcOqFEfG-D_L9JvkWhw" contract="_teHzcOqFEfG-D_L9JvkWhw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_-JhFkOs8EfGrCPfUWQoQTw" client="_X_z4wOp6EfG-D_L9JvkWhw" supplier="_yZln4OqFEfG-D_L9JvkWhw" contract="_yZln4OqFEfG-D_L9JvkWhw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_FgiWcOs9EfGrCPfUWQoQTw" client="_X_z4wOp6EfG-D_L9JvkWhw" supplier="_1o-VAOqFEfG-D_L9JvkWhw" contract="_1o-VAOqFEfG-D_L9JvkWhw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_LejNAOs9EfGrCPfUWQoQTw" client="_X_z4wOp6EfG-D_L9JvkWhw" supplier="_5qnlgOqFEfG-D_L9JvkWhw" contract="_5qnlgOqFEfG-D_L9JvkWhw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_aClo0Op6EfG-D_L9JvkWhw" name="Payment Gateway">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MwAN0Os9EfGrCPfUWQoQTw" client="_aClo0Op6EfG-D_L9JvkWhw" supplier="_FWn5oOqGEfG-D_L9JvkWhw" contract="_FWn5oOqGEfG-D_L9JvkWhw"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_zQNu4Op6EfG-D_L9JvkWhw" name="Student Subsystem Services">
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_pod8EOp7EfG-D_L9JvkWhw" name="StudentAccount"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_9yrLkOp7EfG-D_L9JvkWhw" name="Accomodation"/>
@@ -76,23 +109,11 @@
   <packagedElement xmi:type="uml:Interface" xmi:id="_CMvbwOp_EfG-D_L9JvkWhw" name="ParcelNotifications"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_Rq9LUOqBEfG-D_L9JvkWhw" name="AIStudentAssistant"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_TyYK0OqBEfG-D_L9JvkWhw" name="EcoData"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_ZqcxcOqBEfG-D_L9JvkWhw" name="AI Assistant Service"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ZqcxcOqBEfG-D_L9JvkWhw" name="AI Assistant Service">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QenNkOs9EfGrCPfUWQoQTw" client="_ZqcxcOqBEfG-D_L9JvkWhw" supplier="_H0m_AOqGEfG-D_L9JvkWhw" contract="_H0m_AOqGEfG-D_L9JvkWhw"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_nFhPcOqBEfG-D_L9JvkWhw" name="WardenMaintenance"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_u-hMAOqBEfG-D_L9JvkWhw" name="ParcelCollection"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_1nICQOqCEfG-D_L9JvkWhw" client="_PrFssOp-EfG-D_L9JvkWhw" supplier="_Gk6vMOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_8QpT8OqCEfG-D_L9JvkWhw" client="_WJukEOp-EfG-D_L9JvkWhw" supplier="_MsnGMOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_9rs8sOqCEfG-D_L9JvkWhw" client="_arNLMOp-EfG-D_L9JvkWhw" supplier="_PODIMOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="__Tc9oOqCEfG-D_L9JvkWhw" client="_dFQLwOp-EfG-D_L9JvkWhw" supplier="_T-UZQOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_ATihoOqDEfG-D_L9JvkWhw" client="_nFhPcOqBEfG-D_L9JvkWhw" supplier="_X_z4wOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_CF7FQOqDEfG-D_L9JvkWhw" client="_hvVVQOp-EfG-D_L9JvkWhw" supplier="_X_z4wOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_DftisOqDEfG-D_L9JvkWhw" client="_lXuYQOp-EfG-D_L9JvkWhw" supplier="_VnhLsOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_MC99MOqDEfG-D_L9JvkWhw" client="_CMvbwOp_EfG-D_L9JvkWhw" supplier="_T-UZQOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_NATvMOqDEfG-D_L9JvkWhw" client="_u-hMAOqBEfG-D_L9JvkWhw" supplier="_X_z4wOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_Omfp4OqDEfG-D_L9JvkWhw" client="_oHRHsOp-EfG-D_L9JvkWhw" supplier="_aClo0Op6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_QcWYQOqDEfG-D_L9JvkWhw" client="_rWtfMOp-EfG-D_L9JvkWhw" supplier="_T-UZQOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_RpF4MOqDEfG-D_L9JvkWhw" client="_Rq9LUOqBEfG-D_L9JvkWhw" supplier="_ZqcxcOqBEfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_TPi4oOqDEfG-D_L9JvkWhw" client="_TyYK0OqBEfG-D_L9JvkWhw" supplier="_VnhLsOp6EfG-D_L9JvkWhw"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_UPn1kOqDEfG-D_L9JvkWhw" client="_uYktsOp-EfG-D_L9JvkWhw" supplier="_X_z4wOp6EfG-D_L9JvkWhw"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_R097kOqEEfG-D_L9JvkWhw" name="External Services"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_Fn-k0OqFEfG-D_L9JvkWhw" name="Authentication"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_Ic4VYOqFEfG-D_L9JvkWhw" name="DoorUnlock"/>
@@ -108,4 +129,18 @@
   <packagedElement xmi:type="uml:Interface" xmi:id="__-A2MOqFEfG-D_L9JvkWhw" name="EcoData"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_FWn5oOqGEfG-D_L9JvkWhw" name="PaymentProcessing"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_H0m_AOqGEfG-D_L9JvkWhw" name="AIStudentAssistant"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_7LEREOs0EfGrCPfUWQoQTw" client="_PrFssOp-EfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_JOH_UOs5EfGrCPfUWQoQTw" client="_WJukEOp-EfG-D_L9JvkWhw" supplier="_Ic4VYOqFEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="__iKa4Os5EfGrCPfUWQoQTw" client="_pK3bEOpwEfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_LShOEOs7EfGrCPfUWQoQTw" client="_dFQLwOp-EfG-D_L9JvkWhw" supplier="_RzBlYOqFEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_WIo7sOs-EfGrCPfUWQoQTw" client="_Rq9LUOqBEfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_b-mpgOs-EfGrCPfUWQoQTw" client="_TyYK0OqBEfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_dTZSMOs-EfGrCPfUWQoQTw" client="_uYktsOp-EfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_g1uwgOs-EfGrCPfUWQoQTw" client="_pK3bEOpwEfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ipSY0Os-EfGrCPfUWQoQTw" client="_oHRHsOp-EfG-D_L9JvkWhw" supplier="_FWn5oOqGEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_k05UwOs-EfGrCPfUWQoQTw" client="_u-hMAOqBEfG-D_L9JvkWhw" supplier="_1o-VAOqFEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_oEF0oOs-EfGrCPfUWQoQTw" client="_CMvbwOp_EfG-D_L9JvkWhw" supplier="_VmfP8OqFEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_p-pc0Os-EfGrCPfUWQoQTw" client="_lXuYQOp-EfG-D_L9JvkWhw" supplier="_8kjnEOqFEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_rnJEoOs-EfGrCPfUWQoQTw" client="_hvVVQOp-EfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_t6-vgOs-EfGrCPfUWQoQTw" client="_nFhPcOqBEfG-D_L9JvkWhw" supplier="_pK3bEOpwEfG-D_L9JvkWhw"/>
 </uml:Model>
